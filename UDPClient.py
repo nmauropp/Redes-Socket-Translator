@@ -1,6 +1,6 @@
 import socket
 # define with server hostname or IP address
-serverName = 'LAPTOP-V26F8B6E' 
+serverName = '' 
 
 # define server port 
 serverPort = 12000 
@@ -22,3 +22,5 @@ modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
 print(modifiedMessage.decode())
 # close client
 clientSocket.close()
+
+
